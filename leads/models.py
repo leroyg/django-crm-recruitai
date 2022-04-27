@@ -24,8 +24,8 @@ class Lead(models.Model):
         ('Email', 'Email Message'),
         ('Phone', 'Phone Call'),
     ]
-    first_name = models.CharField(max_length=30, blank=False)
-    last_name = models.CharField(max_length=100, blank=False)
+    firstname = models.CharField(max_length=30, blank=False)
+    lastname = models.CharField(max_length=100, blank=False)
     contact_email = models.CharField(max_length=50, blank=False)
     contact_phone = models.CharField(max_length=20, blank=False)
     
